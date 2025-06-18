@@ -16,15 +16,6 @@ const experiences = [
     period: "March 2025 - Ongoing",
     description: "Built mobile app along with backend and front end designing.",
   },
-  {
-    company: "Innovation Labs",
-    role: "Web Development Intern",
-    type: "Internship",
-    duration: "4 mos",
-    period: "Jan 2020 - Apr 2020",
-    description:
-      "Developed internal tools, learned modern web technologies, and contributed to open-source projects.",
-  },
 ];
 
 export default function Experience() {
