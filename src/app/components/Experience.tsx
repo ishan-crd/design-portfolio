@@ -6,7 +6,7 @@ const experiences = [
     duration: "Ongoing",
     period: "May 2025 - Now",
     description:
-      "Leading development of scalable web applications, mentoring junior developers, and architecting cloud-native solutions.",
+      "Developing scalable web applications and architecting solutions.",
   },
   {
     company: "Insyd",
@@ -14,8 +14,7 @@ const experiences = [
     type: "Full Time",
     duration: "Ongoing",
     period: "March 2025 - Ongoing",
-    description:
-      "Built responsive React applications, implemented design systems, and collaborated with cross-functional teams.",
+    description: "Built mobile app along with backend and front end designing.",
   },
   {
     company: "Innovation Labs",
