@@ -1,9 +1,9 @@
 const projects = [
   {
     title: "Cradle Clothing",
-    desc: "Collaborative project management tool with real-time updates, team chat, and advanced analytics for productivity tracking.",
+    desc: "Completely responsive E-Commerce platform for modern gym aparrel selling along with complete design and checkout.",
     image: "/cradle.png",
-    tech: ["React", "Firebase", "Material-UI", "WebSocket"],
+    tech: ["React.js", "Javascript", "Material-UI", "WebSocket"],
     link: "https://cradle-clothing.vercel.app/",
     github: "https://github.com/ishan-crd/CradleClothing",
   },
@@ -25,9 +25,9 @@ const projects = [
   },
   {
     title: "Car Finder",
-    desc: "Personal carbon footprint tracker with AI-powered recommendations for sustainable living and environmental impact reduction.",
+    desc: "Personalised car finding website made for basic experience proving.",
     image: "/car-finder.png",
-    tech: ["Vue.js", "Python", "FastAPI", "Chart.js"],
+    tech: ["Next.js", "Tailwind"],
     link: "https://car-finder-bh6h.vercel.app/",
     github: "https://github.com/ishan-crd/car-finder",
   },

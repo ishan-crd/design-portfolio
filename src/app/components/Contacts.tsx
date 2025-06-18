@@ -1,6 +1,6 @@
 export default function Contacts() {
   return (
-    <div className="mt-20 text-white font-mono px-10 text-center">
+    <div className="mt-10 text-white font-mono px-10 text-center mb-10">
       <h1 className="text-2xl mb-5">Contact Me</h1>
       <p className="text-zinc-400 mb-3">
         Let's work together! Reach out on any platform.

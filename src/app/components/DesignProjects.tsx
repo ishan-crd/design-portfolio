@@ -1,16 +1,16 @@
 const designProjects = [
   {
     title: "Rest & Cafe",
-    desc: "Complete design system and UI kit for the tailoring dashboard, featuring modern components, color schemes, and user flow documentation.",
+    desc: "Complete design system and UI kit for the resturant supporting menu app, featuring modern components, color schemes, and user flow documentation.",
     image: "/rest&cafe.png",
-    tools: ["Figma", "Adobe XD", "Principle", "Sketch"],
+    tools: ["Figma", "Photoshop"],
     figma: "https://figma.com/file/wearql-design-system",
   },
   {
     title: "Enactus - Miranda",
-    desc: "Mobile-first design for the clubbing access app with intuitive navigation, dark theme aesthetics, and accessibility-focused user experience.",
+    desc: "Miranda College society website design with ecommerce platform.",
     image: "/enactus.png",
-    tools: ["Figma", "Framer", "After Effects", "Photoshop"],
+    tools: ["Figma", "Photoshop"],
     figma:
       "https://www.figma.com/design/Bf7tXreNFlH2jfTPIapcGe/Enactus?node-id=0-1&t=yqKDRcXiRPK5jkue-1",
   },
@@ -18,7 +18,7 @@ const designProjects = [
     title: "Insyd",
     desc: "Revolutionary clubbing access app making nightlife more inclusive and accessible for everyone, with real-time venue information.",
     image: "/insyd.png",
-    tools: ["React Native", "Javascript"],
+    tools: ["Figma", "Photoshop", "Illustrator"],
     figma:
       "https://www.figma.com/design/tAXWp4ZSh1s9nchCPdSjds/insyd?node-id=13-223&t=fe7MaALs2exsvtJZ-1",
   },
@@ -26,8 +26,9 @@ const designProjects = [
     title: "Gennext IT",
     desc: "Complete brand identity and visual design for sustainability tracking app, including logo design, color palette, and marketing materials.",
     image: "/gennextit.png",
-    tools: ["Figma", "Illustrator", "Photoshop", "InDesign"],
-    figma: "https://figma.com/file/ecotracker-brand",
+    tools: ["Figma", "Adobe photoshop"],
+    figma:
+      "https://www.figma.com/proto/QEEHxRhUpf7mjBaDz6KUcz/Untitled?node-id=1-3&p=f&t=ttJGV21BoRzyEtqs-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1",
   },
 ];
 
