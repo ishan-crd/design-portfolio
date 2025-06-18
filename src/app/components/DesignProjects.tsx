@@ -1,3 +1,4 @@
+import Image from "next/image";
 const designProjects = [
   {
     title: "Rest & Cafe",
@@ -44,9 +45,11 @@ export default function DesignProjects() {
           >
             {/* Project Image */}
             <div className="aspect-video bg-zinc-800 relative overflow-hidden">
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
+                width={400}
+                height={300}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
               />
             </div>

@@ -3,7 +3,7 @@ export default function Contacts() {
     <div className="mt-10 text-white font-mono px-10 text-center mb-10">
       <h1 className="text-2xl mb-5">Contact Me</h1>
       <p className="text-zinc-400 mb-3">
-        Let's work together! Reach out on any platform.
+        Let&apos;s work together! Reach out on any platform.
       </p>
       <div className="flex justify-center gap-5">
         <a
