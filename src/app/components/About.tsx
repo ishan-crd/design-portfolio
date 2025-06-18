@@ -113,8 +113,9 @@ export default function About() {
                   DevOps & Deployment
                 </h4>
                 <p className="text-zinc-400 leading-relaxed group-hover:text-zinc-300 transition-colors">
-                  Implementing CI/CD pipelines and deploying applications on
-                  AWS, Vercel, and other cloud platforms for reliable delivery.
+                  Setting up automated workflows to build, test, and deploy apps
+                  smoothly on platforms like AWS and Vercel, making sure
+                  everything runs reliably.
                 </p>
               </div>
             </div>
