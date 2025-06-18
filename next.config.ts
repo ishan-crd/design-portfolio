@@ -1,7 +1,23 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: [
+      "github.com",
+      "raw.githubusercontent.com",
+      "images.unsplash.com",
+      "via.placeholder.com",
+      "picsum.photos",
+      "localhost",
+      // Add any other domains where your images are hosted
+    ],
+    // Alternative: use remotePatterns for more control
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
