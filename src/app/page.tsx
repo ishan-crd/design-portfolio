@@ -6,6 +6,33 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contacts";
 import Footer from "./components/Footer";
 import DesignProjects from "./components/DesignProjects";
+import Insydpage from "./components/Insydpage";
+import Jobpage from "./components/JobPage";
+import JobPage from "./components/JobPage";
+import GennextPage from "./components/GennextPage";
+
+const companyDetails = [
+  {
+    logo: "/insyd-logo.png",
+    job: "Founder, Designer & Full-Stack App Developer",
+    text: [
+      "As the creator of Insyd, I led the product from concept to launch,handling end-to-end design, development, and strategy. I designed the UI/UX to deliver a sleek, nightlife-focused experience and built the app using React Native and Firebase for a smooth,cross-platform performance.",
+      "I also handled branding, marketing strategy, and user feedback loops to guide iterations. Insyd was built to bridge the gap between partygoers and nightlife venues, creating a dynamic clubbing ecosystem.",
+    ],
+    client: "Insyd",
+    techStack: ["React Native", "JavaScript"],
+  },
+  {
+    logo: "/gennext-logo.png",
+    job: "Designer & Front-End App Developer",
+    text: [
+      "At Gennext IT, I was responsible for designing the frontend of the company’s official website. I created a modern, responsive focusing on clear user flows and intuitive navigation to enhance user engagement.",
+      "I led the UI/UX design process from wireframes to final implementation, ensuring the brand’s professionalism and services were effectively communicated. My work helped establish a strong digital presence for Gennext IT and improved user trust through thoughtful design and seamless performance.",
+    ],
+    client: "Gennext IT",
+    techStack: ["React.js", "JavaScript", "Framer"],
+  },
+];
 
 export default function Home() {
   return (
@@ -79,11 +106,20 @@ export default function Home() {
           <DesignProjects />
         </section>
 
+        <section id="insyd-project" className="hidden md:block lg:block">
+          <JobPage company={companyDetails[0]} />
+          <Insydpage />
+        </section>
+
+        <section id="gennext-project" className="hidden md:block lg:block">
+          <JobPage company={companyDetails[1]} />
+          <GennextPage />
+        </section>
+
         <section id="contact">
           <Contact />
         </section>
       </main>
-
       <Footer />
     </div>
   );
