@@ -1,7 +1,17 @@
 "use client";
 import Image from "next/image";
+type Company = {
+  logo: string;
+  job: string;
+  text: string[];
+  client: string;
+  techStack: string[];
+};
 
-export default function JobPage({ company }) {
+type Props = {
+  company: Company;
+};
+export default function JobPage({ company }: Props) {
   const { logo, job, text, client, techStack } = company;
   return (
     <div>
