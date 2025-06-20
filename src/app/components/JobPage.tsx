@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 export default function JobPage({ company }) {
-  const { logo, job, text, client, techStack, images } = company;
+  const { logo, job, text, client, techStack } = company;
   return (
     <div>
       <div className="flex gap-25">

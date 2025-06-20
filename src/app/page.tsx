@@ -7,7 +7,6 @@ import Contact from "./components/Contacts";
 import Footer from "./components/Footer";
 import DesignProjects from "./components/DesignProjects";
 import Insydpage from "./components/Insydpage";
-import Jobpage from "./components/JobPage";
 import JobPage from "./components/JobPage";
 import GennextPage from "./components/GennextPage";
 
