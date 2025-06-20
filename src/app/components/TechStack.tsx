@@ -13,6 +13,7 @@ export default function TechStack() {
     { name: "MongoDB", image: "/icons/mongodb.svg" },
     { name: "Git", image: "/icons/git.png" },
     { name: "Figma", image: "/icons/figma.svg" },
+    { name: "React Native", image: "/icons/react.png" },
   ];
 
   const otherSkills = [
