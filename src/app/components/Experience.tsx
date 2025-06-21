@@ -20,7 +20,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-20 font-mono mb-26">
+    <div className="max-w-4xl mx-auto px-6 py-20 font-mono mb-10">
       <h2 className="text-3xl font-bold text-white mb-8">Experience</h2>
       <div className="space-y-8">
         {experiences.map((exp, index) => (

@@ -36,8 +36,11 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-16">
-      <h2 className="text-3xl font-bold text-white mb-8 font-mono">
+    <div className="max-w-4xl mx-auto px-6 py-10 mb-10">
+      <h2
+        style={{ fontFamily: "Minecraft" }}
+        className="text-2xl font-bold text-white mb-10 text-center"
+      >
         Tech Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

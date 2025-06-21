@@ -35,8 +35,13 @@ const designProjects = [
 
 export default function DesignProjects() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-1 pb-40">
-      <h2 className="text-3xl font-bold text-white mb-8">Design Projects</h2>
+    <div className="max-w-4xl mx-auto px-6 py-5 pb-25">
+      <h2
+        style={{ fontFamily: "Minecraft" }}
+        className="text-2xl font-bold text-white mb-10 text-center"
+      >
+        Design Projects
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {designProjects.map((project, index) => (
           <div
