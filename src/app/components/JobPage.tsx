@@ -22,10 +22,7 @@ export default function JobPage({ company }: Props) {
         {/* Left: Logo & Description */}
         <div className="flex-1">
           <Image src={logo} alt="logo" width={110} height={40} />
-          <p
-            style={{ fontFamily: "Minecraft" }}
-            className="text-white text-2xl xl:text-2xl mt-6 mb-6 font-light"
-          >
+          <p className="text-white text-3xl xl:text-3xl mt-6 mb-6 font-bold font-mono">
             {job}
           </p>
           <div
