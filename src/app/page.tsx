@@ -15,7 +15,7 @@ import Resandcafe from "./components/Resandcafe";
 const companyDetails = [
   {
     logo: "/insyd-logo.png",
-    job: "Founder, Designer & Full-Stack App Developer",
+    job: "Founder, Designer & App Developer",
     text: [
       "As the creator of Insyd, I led the product from concept to launch,handling end-to-end design, development, and strategy. I designed the UI/UX to deliver a sleek, nightlife-focused experience and built the app using React Native and Firebase for a smooth,cross-platform performance.",
       "I also handled branding, marketing strategy, and user feedback loops to guide iterations. Insyd was built to bridge the gap between partygoers and nightlife venues, creating a dynamic clubbing ecosystem.",
