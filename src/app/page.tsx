@@ -9,6 +9,7 @@ import DesignProjects from "./components/DesignProjects";
 import Insydpage from "./components/Insydpage";
 import JobPage from "./components/JobPage";
 import GennextPage from "./components/GennextPage";
+import Cradlepage from "./components/Cradlepage";
 
 const companyDetails = [
   {
@@ -30,6 +31,16 @@ const companyDetails = [
     ],
     client: "Gennext IT",
     techStack: ["React.js", "JavaScript", "Framer"],
+  },
+  {
+    logo: "/cradle-logo.png",
+    job: "Full Stack Developer & Designer",
+    text: [
+      "For Cradle, I handled the entire digital presence of the brand, from designing the user experience in Figma to developing the full-stack e-commerce website. I crafted a bold, athletic aesthetic that matched the brand's identity, focusing on a smooth shopping experience and strong visual appeal. ",
+      "On the development side, I implemented product listings, cart and checkout functionality, and admin tools using modern web technologies. The result was a fully responsive, performance-optimized site that blended strong branding with seamless usability.",
+    ],
+    client: "Cradle",
+    techStack: ["React.js", "CSS", "Javascript"],
   },
 ];
 
@@ -105,6 +116,11 @@ export default function Home() {
         <section id="gennext-project" className="hidden md:block lg:block">
           <JobPage company={companyDetails[1]} />
           <GennextPage />
+        </section>
+
+        <section id="cradle-project" className="hidden md:block lg:block">
+          <JobPage company={companyDetails[2]} />
+          <Cradlepage />
         </section>
 
         <section id="dev projects">
