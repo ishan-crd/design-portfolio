@@ -10,7 +10,7 @@ const designProjects = [
   },
   {
     title: "Enactus - Miranda",
-    desc: "Miranda College society website design with ecommerce platform.",
+    desc: "Comprehensive website design for the Miranda College Enactus society, featuring a fully functional ecommerce platform which includes responsive layouts.",
     image: "/enactus.png",
     tools: ["Figma", "Photoshop"],
     figma:
