@@ -97,14 +97,6 @@ export default function Home() {
           <Experience />
         </section>
 
-        <section id="dev projects">
-          <Projects />
-        </section>
-
-        <section id="des projects">
-          <DesignProjects />
-        </section>
-
         <section id="insyd-project" className="hidden md:block lg:block">
           <JobPage company={companyDetails[0]} />
           <Insydpage />
@@ -113,6 +105,14 @@ export default function Home() {
         <section id="gennext-project" className="hidden md:block lg:block">
           <JobPage company={companyDetails[1]} />
           <GennextPage />
+        </section>
+
+        <section id="dev projects">
+          <Projects />
+        </section>
+
+        <section id="des projects">
+          <DesignProjects />
         </section>
 
         <section id="contact">
