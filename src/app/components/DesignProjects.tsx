@@ -5,7 +5,8 @@ const designProjects = [
     desc: "Complete design system and UI kit for the resturant supporting menu app, featuring modern components, color schemes, and user flow documentation.",
     image: "/rest&cafe.png",
     tools: ["Figma", "Photoshop"],
-    figma: "https://figma.com/file/wearql-design-system",
+    figma:
+      "https://www.figma.com/design/pd3DvLbekmIsdz0ic8C9rM/Restaurant-Web-App?node-id=0-1&t=LNkORtLE8MN3lvIa-1",
   },
   {
     title: "Enactus - Miranda",
