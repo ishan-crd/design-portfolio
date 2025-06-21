@@ -10,6 +10,7 @@ import Insydpage from "./components/Insydpage";
 import JobPage from "./components/JobPage";
 import GennextPage from "./components/GennextPage";
 import Cradlepage from "./components/Cradlepage";
+import Resandcafe from "./components/Resandcafe";
 
 const companyDetails = [
   {
@@ -41,6 +42,16 @@ const companyDetails = [
     ],
     client: "Cradle",
     techStack: ["React.js", "CSS", "Javascript"],
+  },
+  {
+    logo: "/res&cafe-logo.png",
+    job: "Designing",
+    text: [
+      "At Res&Cafe, I led the UI/UX design for a digital restaurant menu and ordering app, focused on streamlining the dining experience. Using Figma, I crafted an intuitive, visually appealing interface that allowed customers to easily browse the menu, customize orders, and place them seamlessly. ",
+      "The design prioritized ease of use, responsiveness across devices, and a smooth user journey from selection to checkout, tailored for both dine-in and takeaway experiences.",
+    ],
+    client: "Res&Cafe",
+    techStack: ["UI/UX Designer"],
   },
 ];
 
@@ -143,6 +154,11 @@ export default function Home() {
         <section id="gennext-project" className="hidden md:block lg:block">
           <JobPage company={companyDetails[1]} />
           <GennextPage />
+        </section>
+
+        <section id="gennext-project" className="hidden md:block lg:block">
+          <JobPage company={companyDetails[3]} />
+          <Resandcafe />
         </section>
 
         <section id="dev projects">

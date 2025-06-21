@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function GennextPage() {
   return (
-    <div className="flex justify-center items-center gap-20 py-20 bg-black relative">
+    <div className="flex justify-center items-center gap-20 bg-black relative pb-20">
       {/* Laptop Section */}
       <div className="relative w-[600px] h-[400px] flex items-center justify-center">
         {/* Background Circles */}

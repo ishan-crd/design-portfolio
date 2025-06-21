@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Insydpage() {
   return (
-    <div className="relative w-full mt-46 h-60 mb-70">
+    <div className="relative w-full mt-30 h-60 mb-70">
       {/* Pink Bar */}
       <div className="absolute inset-0 bg-pink-800 blur-3xl h-60 z-0" />
 

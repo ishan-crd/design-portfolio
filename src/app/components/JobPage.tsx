@@ -24,7 +24,7 @@ export default function JobPage({ company }: Props) {
           <Image src={logo} alt="logo" width={110} height={40} />
           <p
             style={{ fontFamily: "Minecraft" }}
-            className="text-white text-2xl xl:text-3xl mt-6 mb-6 font-light"
+            className="text-white text-2xl xl:text-2xl mt-6 mb-6 font-light"
           >
             {job}
           </p>
