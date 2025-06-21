@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+
 type Company = {
   logo: string;
   job: string;
@@ -11,38 +12,47 @@ type Company = {
 type Props = {
   company: Company;
 };
+
 export default function JobPage({ company }: Props) {
   const { logo, job, text, client, techStack } = company;
+
   return (
-    <div>
-      <div className="flex gap-25">
-        <div className="ml-50">
+    <div className="w-full px-16 lg:px-32 xl:px-48 2xl:px-64 py-16 max-w-screen-2xl mx-auto">
+      <div className="flex gap-20 items-start justify-between">
+        {/* Left: Logo & Description */}
+        <div className="flex-1">
           <Image src={logo} alt="logo" width={110} height={40} />
           <p
             style={{ fontFamily: "Minecraft" }}
-            className="text-white text-xl mt-4 mb-5 font-ligh ml-1"
+            className="text-white text-2xl xl:text-3xl mt-6 mb-6 font-light"
           >
             {job}
           </p>
           <div
             style={{ fontFamily: "Montserrat" }}
-            className="text-zinc-300 w-225"
+            className="text-zinc-300 text-base xl:text-lg max-w-3xl leading-relaxed"
           >
             <p className="mb-5">{text[0]}</p>
             <p>{text[1]}</p>
           </div>
         </div>
 
-        <div className="text-white" style={{ fontFamily: "Montserrat" }}>
-          <p className="font-black">CLIENT</p>
-          <p className="mb-5 font-extralight">{client}</p>
+        {/* Right: Client & Tech Stack */}
+        <div
+          className="min-w-[200px] max-w-xs text-white text-sm xl:text-base"
+          style={{ fontFamily: "Montserrat" }}
+        >
+          <p className="font-black mb-1">CLIENT</p>
+          <p className="mb-6 font-extralight">{client}</p>
 
-          <p className="font-black">TECH STACK</p>
-          {techStack.map((tech, index) => (
-            <p key={index} className="font-extralight">
-              {tech}
-            </p>
-          ))}
+          <p className="font-black mb-1">TECH STACK</p>
+          <div className="space-y-1">
+            {techStack.map((tech, index) => (
+              <p key={index} className="font-extralight">
+                {tech}
+              </p>
+            ))}
+          </div>
         </div>
       </div>
     </div>
