@@ -11,7 +11,7 @@ export default function Cradlepage() {
           alt="cradle-bg"
           objectFit="cover"
           layout="fill"
-          className="blur-sm"
+          className="blur-xl"
         />
       </div>
       {/* Images placed ABOVE the pink bar */}
