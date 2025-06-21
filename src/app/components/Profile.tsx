@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Profile() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-16">
+    <div className="max-w-4xl mx-auto px-6 py-10 mt-10">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
         {/* Profile Image */}
         <div className="w-32 h-32 md:w-40 md:h-40 rounded-full relative overflow-hidden ring-2 ring-zinc-800 flex-shrink-0">
@@ -17,9 +17,12 @@ export default function Profile() {
 
         {/* Profile Info */}
         <div className="text-center md:text-left mt-2">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-2 font-mono">
-            Ishan Gupta
-          </h1>
+          <div className="w-full flex flex-col md:flex-row md:items-center md:justify-between gap-3 mb-2">
+            <h1 className="text-4xl md:text-5xl font-bold text-white font-mono">
+              Ishan Gupta
+            </h1>
+          </div>
+
           <h2 className="text-xl text-zinc-400 mb-6 font-mono">
             Full Stack Developer & Designer
           </h2>
@@ -116,6 +119,27 @@ export default function Profile() {
             </div>
           </div>
         </div>
+        <a
+          href="/IshanGupta-Resume.pdf"
+          download
+          className="hidden sm:flex ml-auto items-center gap-2 mt-3 text-sm text-zinc-400 hover:text-white transition-colors border border-zinc-700 px-3 py-1.5 rounded-md hover:bg-zinc-800 font-mono"
+        >
+          Resume
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-4 h-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
+            />
+          </svg>
+        </a>
       </div>
     </div>
   );

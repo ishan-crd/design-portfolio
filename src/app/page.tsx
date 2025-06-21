@@ -54,6 +54,28 @@ export default function Home() {
             <div className="text-white font-semibold text-lg font-mono">
               Ishan Gupta
             </div>
+            <a
+              href="/IshanGupta-Resume.pdf"
+              download
+              className="md:hidden lg:hidden ml-10 relative flex items-center gap-2 text-sm text-zinc-400 hover:text-white transition-colors border border-zinc-700 px-3 py-1.5 rounded-md hover:bg-zinc-800 font-mono"
+            >
+              Resume
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-4 h-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
+                />
+              </svg>
+            </a>
+
             <div className="hidden md:flex items-center space-x-8 text-sm font-mono">
               <a
                 href="#about"
