@@ -11,7 +11,7 @@ const designProjects = [
   {
     title: "Enactus - Miranda",
     desc: "Comprehensive website design for the Miranda College Enactus society, featuring a fully functional ecommerce platform which includes responsive layouts.",
-    image: "/enactus.png",
+    image: "/enactusmiranda.png",
     tools: ["Figma", "Photoshop"],
     figma:
       "https://www.figma.com/design/Bf7tXreNFlH2jfTPIapcGe/Enactus?node-id=0-1&t=yqKDRcXiRPK5jkue-1",
@@ -19,7 +19,7 @@ const designProjects = [
   {
     title: "Insyd",
     desc: "Revolutionary clubbing access app making nightlife more inclusive and accessible for everyone, with real-time venue information.",
-    image: "/insyd.png",
+    image: "/insyd-black.png",
     tools: ["Figma", "Photoshop", "Illustrator"],
     figma:
       "https://www.figma.com/design/tAXWp4ZSh1s9nchCPdSjds/insyd?node-id=13-223&t=fe7MaALs2exsvtJZ-1",

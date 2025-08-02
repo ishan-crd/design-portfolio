@@ -5,7 +5,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contacts";
 import Footer from "./components/Footer";
-import DesignProjects from "./components/DesignProjects";
+// import DesignProjects from "./components/DesignProjects";
 import Insydpage from "./components/Insydpage";
 import JobPage from "./components/JobPage";
 import GennextPage from "./components/GennextPage";
@@ -165,9 +165,9 @@ export default function Home() {
           <Projects />
         </section>
 
-        <section id="des projects">
+        {/* <section id="des projects">
           <DesignProjects />
-        </section>
+        </section> */}
 
         <section id="contact">
           <Contact />

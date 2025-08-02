@@ -49,3 +49,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
+.minecraft-font {
+  font-family: 'Minecraft', monospace;
+}

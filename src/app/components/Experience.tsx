@@ -1,21 +1,38 @@
 const experiences = [
   {
+    company: "Edwance.ai",
+    role: "Front End Developer - Intern",
+    type: "Full Time",
+    duration: "Ongoing",
+    period: "July 2025 - Ongoing",
+    description: "Spearheading the end-to-end design and development of Edwance.ai’s landing page and dashboard, while driving the product’s growth from concept to a fully scaled service.",
+  },
+  {
+    company: "Tangle",
+    role: "Full Stack App Developer",
+    type: "Freelance",
+    duration: "Ongoing",
+    period: "July 2025 - Ongoing",
+    description: "Leading the development of Tangle’s MVP, from initial concept to a fully functional cross-platform app for a funded startup, covering both frontend and backend architecture.",
+  },
+  {
     company: "Gennext IT",
     role: "Full Stack Developer - Intern",
     type: "Full Time",
-    duration: "Ongoing",
-    period: "May 2025 - Now",
+    duration: "Completed",
+    period: "April 2025 - July 2025",
     description:
-      "Developing scalable web applications and architecting solutions.",
+      "Architecting and developing scalable web applications for Gennext IT, focused on building robust, high-performance digital solutions for multiple clients.",
   },
   {
     company: "Insyd",
-    role: "App Developer - Owner",
+    role: "App Developer - Founder",
     type: "Full Time",
-    duration: "Ongoing",
-    period: "March 2025 - Ongoing",
-    description: "Built mobile app along with backend and front end designing.",
+    duration: "Completed",
+    period: "March 2025 - June 2025",
+    description: "Designed and developed the Insyd app from the ground up, taking it from concept to a fully functional product, covering both frontend and backend.",
   },
+  
 ];
 
 export default function Experience() {

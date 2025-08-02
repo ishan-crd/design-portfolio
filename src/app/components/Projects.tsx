@@ -4,33 +4,29 @@ const projects = [
     title: "Cradle Clothing",
     desc: "Completely responsive E-Commerce platform for modern gym aparrel selling along with complete design and checkout.",
     image: "/cradle.png",
-    tech: ["React.js", "Javascript", "Material-UI", "WebSocket"],
+    tech: ["React.js", "Javascript", "Material-UI"],
     link: "https://cradle-clothing.vercel.app/",
     github: "https://github.com/ishan-crd/CradleClothing",
   },
   {
     title: "Insyd",
     desc: "Revolutionary clubbing access app making nightlife more inclusive and accessible for everyone, with real-time venue information.",
-    image: "/insyd.png",
-    tech: ["React Native", "Javascript"],
-    link: "https://insyd.app",
-    github: "https://github.com/ishan-crd/insyd-bolt",
+    image: "/insyd-black.png",
+    tech: ["React Native", "Typescript", "Nativewind"],
   },
   {
-    title: "WearQL",
-    desc: "Modern tailoring dashboard for tracking customer orders, managing inventory, and streamlining the custom clothing business workflow.",
-    image: "/wearql.png",
-    tech: ["Next.js", "Node.js", "Tailwind CSS"],
+    title: "Tangle",
+    desc: "Led the end-to-end design and development of Tangle’s MVP, transforming the idea from concept to a functional, user-ready product.",
+    image: "/tangle-des.png",
+    tech: ["React Native", "Typescript", "Nativewind"],
     link: "https://wearquery-fw31.vercel.app/",
-    github: "https://github.com/ishan-crd/Wearquery",
   },
   {
-    title: "Car Finder",
-    desc: "Personalised car finding website made for basic experience proving.",
-    image: "/car-finder.png",
-    tech: ["Next.js", "Tailwind"],
-    link: "https://car-finder-bh6h.vercel.app/",
-    github: "https://github.com/ishan-crd/car-finder",
+    title: "Edwance.ai",
+    desc: "End-to-end design and development of Edwance.ai’s landing page and dashboard, while driving the product’s growth from concept to a fully scaled service.",
+    image: "/edwance-landing.png",
+    tech: ["Next.js", "Typescript", "Tailwind CSS"],
+    link: "https://www.edwance.ai/",
   },
 ];
 
@@ -38,7 +34,7 @@ export default function Projects() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-10 mb-10">
       <h2
-        style={{ fontFamily: "Minecraft" }}
+        style={{ fontFamily: "Montserrat" }}
         className="text-2xl font-bold text-white mb-10 text-center"
       >
         Tech Projects
