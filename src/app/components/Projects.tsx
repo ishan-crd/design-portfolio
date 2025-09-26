@@ -4,25 +4,37 @@ const projects = [
     title: "Cradle Clothing",
     desc: "Complete UI/UX design for a modern e-commerce platform specializing in gym apparel, featuring intuitive user flows and a bold athletic aesthetic.",
     image: "/cradle.png",
-    tech: ["Figma", "Adobe Creative Suite", "Design Systems"],
+    tech: ["Figma", "Blender", "Adobe Illustrator"],
   },
   {
     title: "Insyd",
     desc: "Revolutionary clubbing access app design making nightlife more inclusive and accessible, with user-centered interface design and real-time venue information.",
     image: "/insyd-black.png",
-    tech: ["Figma", "Prototyping", "User Research"],
+    tech: ["Figma", "Adobe Illustrator"],
   },
   {
     title: "Tangle",
     desc: "Led the complete UI/UX design of Tangle's MVP, transforming the concept from initial wireframes to high-fidelity prototypes and user-ready design system.",
     image: "/tangle-des.png",
-    tech: ["Figma", "Prototyping", "Wireframing"],
+    tech: ["Figma", "InVision", "Sketch"],
   },
   {
     title: "Edwance.ai",
     desc: "End-to-end UI/UX design of Edwance.ai's landing page and dashboard, creating intuitive user experiences that drive product growth from concept to scale.",
     image: "/edwance-landing.png",
-    tech: ["Figma", "Adobe Creative Suite", "User Testing"],
+    tech: ["Figma", "Adobe Illustrator"],
+  },
+  {
+    title: "Unmesa.ai",
+    desc: "Designed the end-to-end user experience for an AI-powered productivity platform, including landing page, mobile and web application, and social media creatives with a cohesive blue gradient design system.",
+    image: "/unmesa/Unmesa-laptop.png",
+    tech: ["Figma", "Adobe Illustrator", "Sketch"],
+  },
+  {
+    title: "Gennext IT",
+    desc: "Designed the complete user experience of the company's official website, creating a modern, responsive interface with clear user flows and intuitive navigation to enhance user engagement.",
+    image: "/gennext1.png",
+    tech: ["Figma", "Sketch"],
   },
 ];
 
