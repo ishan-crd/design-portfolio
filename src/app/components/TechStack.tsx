@@ -3,16 +3,16 @@ import TechIcon from "./TechIcon";
 export default function TechStack() {
   const primarySkills = [
     { name: "Figma", image: "/icons/figma.svg" },
-    { name: "Illustrator", image: "/icons/figma.svg" },
-    { name: "Photoshop", image: "/icons/figma.svg" },
-    { name: "InVision", image: "/icons/figma.svg" },
-    { name: "Framer", image: "/icons/figma.svg" },
-    { name: "Adobe XD", image: "/icons/figma.svg" },
+    { name: "Illustrator", image: "/logos/illustartor.jpeg" },
+    { name: "Photoshop", image: "/logos/photoshop.png" },
+    { name: "InVision", image: "/logos/invision.png" },
+    { name: "Framer", image: "/logos/framer.jpg" },
+    { name: "Adobe XD", image: "/logos/adobexd.avif" },
   ];
 
   const otherSkills = [
-    { name: "Blender", image: "/icons/figma.svg" },
-    { name: "Unity", image: "/icons/figma.svg" },
+    { name: "Blender", image: "/logos/blender.png" },
+    { name: "Unity", image: "/logos/unity.png" },
     { name: "React", image: "/icons/react.png" },
     { name: "Next.js", image: "/icons/next-js.svg" },
     { name: "TypeScript", image: "/icons/typescript.png" },
