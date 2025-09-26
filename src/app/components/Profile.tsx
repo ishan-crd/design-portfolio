@@ -120,7 +120,7 @@ export default function Profile() {
           </div>
         </div>
         <a
-          href="/Resume___Five_Year_UIUX.pdf"
+          href="/IshanGupta-Resume.pdf"
           download
           className="hidden sm:flex ml-auto items-center gap-2 mt-3 text-sm text-zinc-400 hover:text-white transition-colors border border-zinc-700 px-3 py-1.5 rounded-md hover:bg-zinc-800 font-mono"
         >

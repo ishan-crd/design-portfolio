@@ -77,7 +77,7 @@ export default function Home() {
               Ishan Gupta
             </div>
             <a
-              href="/IshanGupta_Resume.pdf"
+              href="/IshanGupta-Resume.pdf"
               download
               className="md:hidden lg:hidden ml-10 relative flex items-center gap-2 text-sm text-zinc-400 hover:text-white transition-colors border border-zinc-700 px-3 py-1.5 rounded-md hover:bg-zinc-800 font-mono"
             >
