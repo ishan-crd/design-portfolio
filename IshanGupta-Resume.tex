@@ -1,0 +1,277 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot,
+    top=2 cm,
+    bottom=2 cm,
+    left=2 cm,
+    right=2 cm,
+    footskip=1.0 cm,
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 0, 0}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage[
+    pdftitle={Ishan Gupta's Resume},
+    pdfauthor={Ishan Gupta},
+    pdfcreator={LaTeX},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titlespacing{\section}{-1pt}{0.3 cm}{0.2 cm}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+
+\newenvironment{highlights}{\begin{itemize}[topsep=0.10 cm, parsep=0.10 cm, partopsep=0pt, itemsep=0pt, leftmargin=10pt]}{\end{itemize}}
+\newenvironment{onecolentry}{\begin{adjustwidth}{0cm}{0cm}}{\end{adjustwidth}}
+\newenvironment{twocolentry}[2][]{\onecolentry\def\secondColumn{#2}\setcolumnwidth{\fill, 4.5 cm}\begin{paracol}{2}}{\switchcolumn \raggedleft \secondColumn\end{paracol}\endonecolentry}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{Ishan Gupta}} \\
+    \begin{center}
+        \textbf{UI/UX Designer}
+    \end{center}
+    Noida, India $\cdot$ \href{mailto:ishangupta3121@gmail.com}{ishangupta3121@gmail.com} $\cdot$ \href{https://linkedin.com/in/ishan-gupta-5b0a20293}{LinkedIn} $\cdot$ \href{https://github.com/ishan-crd}{GitHub} $\cdot$ \href{https://ishanguptaportfolio.vercel.app}{Portfolio}
+\end{center}
+
+\section{Profile Summary}
+\begin{onecolentry}
+    \begin{highlights}
+        \item UI/UX Designer with 5 years of experience in designing scalable and responsive web and mobile applications.
+        \item Strong skills in Figma, Adobe Illustrator, Adobe Photoshop, InVision, Framer, Adobe XD, Blender, Unity.
+        \item Adept in UI/UX design with Figma, capable of leading branding-oriented and user-focused design projects from concept to deployment.
+    \end{highlights}
+\end{onecolentry}
+
+\section{Experience}
+
+\begin{onecolentry}
+    \textbf{Edwance.ai - UI/UX Designer - Intern} \hfill \textit{January 2025 -- Present}
+\end{onecolentry}
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Leading the end-to-end UI/UX design of Edwance.ai's landing page and dashboard, creating intuitive user experiences and beautiful interfaces.
+        \item Contributing to the product's growth from concept to a fully scaled service with production-ready UI designs.
+        \item Working closely with development teams to ensure seamless design implementation and responsive layouts.
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \textbf{Tangle - UI/UX Designer (Freelance)} \hfill \textit{October 2024 -- Present}
+\end{onecolentry}
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designing the complete user experience for Tangle's MVP, from initial wireframes to high-fidelity prototypes for a funded startup.
+        \item Focusing on creating seamless cross-platform user journeys and modern interface design.
+        \item Delivering visually engaging and user-friendly interfaces built for rapid iteration and feature expansion.
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \textbf{Insyd - UI/UX Designer - Founder (Freelance)} \hfill \textit{January 2024 -- April 2024}
+\end{onecolentry}
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed the complete user experience and visual identity for the Insyd app from concept to launch.
+        \item Created a sleek, nightlife-focused design that prioritizes user engagement and brand recognition.
+        \item Handled end-to-end UI/UX design, branding, and strategy for the mobile application.
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \textbf{Cradle - UI/UX Designer (Freelance)} \hfill \textit{June 2022 -- November 2022}
+\end{onecolentry}
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed the complete digital design presence for Cradle's e-commerce platform, creating a bold athletic aesthetic.
+        \item Designed comprehensive design system that enhanced the brand's online presence and user experience.
+        \item Focused on smooth shopping experience and strong visual appeal across all touchpoints.
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \textbf{Res\&Cafe - UI/UX Designer (Freelance)} \hfill \textit{September 2021 -- February 2022}
+\end{onecolentry}
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed the UI/UX for Res\&Cafe's digital restaurant menu and ordering app, creating an intuitive interface.
+        \item Streamlined the dining experience for both dine-in and takeaway customers through thoughtful design.
+        \item Created wireframes, prototypes, and final designs that enhanced the overall dining experience.
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \textbf{Unmesa.ai - UI/UX Designer - Founder (Freelance)} \hfill \textit{March 2021 -- August 2021}
+\end{onecolentry}
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed the end-to-end user experience for Unmesa.ai's AI-powered productivity platform.
+        \item Created landing page, mobile and web application, and social media creatives with cohesive blue gradient design system.
+        \item Designed user-friendly dashboards, task management flows, and productivity tools with clean layouts and smooth navigation.
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \textbf{DesignCraft Studio - UI/UX Designer - Intern} \hfill \textit{August 2020 -- January 2021}
+\end{onecolentry}
+\vspace{0.2 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed user interfaces and user experiences for various client projects at DesignCraft Studio.
+        \item Gained foundational experience in wireframing, prototyping, and creating responsive designs across different industries.
+        \item Developed skills in modern design tools and user-centered design principles.
+    \end{highlights}
+\end{onecolentry}
+
+\section{Projects}
+
+\begin{twocolentry}{2024 -- Present}
+    \textbf{Insyd - Nightlife Discovery App}
+\end{twocolentry}
+\vspace{0.2cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed a fully responsive mobile application for sending and managing clubbing invites.
+        \item Created sleek, nightlife-focused interface using Figma and Adobe Illustrator.
+        \item Designed real-time interaction features and event creation flows with user-centered approach.
+        \item Tools: Figma, Adobe Illustrator
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2cm}
+\begin{twocolentry}{2024 -- Present}
+    \textbf{Tangle - Social MVP App}
+\end{twocolentry}
+\vspace{0.2cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed the complete user experience for Tangle's MVP for a funded startup.
+        \item Created wireframes, prototypes, and high-fidelity designs with modern interface design principles.
+        \item Delivered polished cross-platform app experience with seamless user journeys.
+        \item Tools: Figma, InVision, Sketch
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2cm}
+\begin{twocolentry}{2022}
+    \textbf{Cradle - E-Commerce Platform}
+\end{twocolentry}
+\vspace{0.2cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed a full-stack e-commerce website for athletic fashion with bold, athletic aesthetic.
+        \item Created comprehensive design system with product pages, cart, checkout, and admin tools.
+        \item Focused on branding-first visual style and seamless usability across all touchpoints.
+        \item Tools: Figma, Blender, Adobe Illustrator
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2cm}
+\begin{twocolentry}{2021 -- 2022}
+    \textbf{Res\&Cafe - Restaurant Menu App}
+\end{twocolentry}
+\vspace{0.2cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed a digital restaurant menu and ordering app interface focused on smooth user navigation.
+        \item Created wireframes, mockups, and high-fidelity designs tailored for mobile and tablet experiences.
+        \item Focused on clean aesthetics, responsiveness, and minimalistic user journey for food browsing and ordering.
+        \item Tools: Figma, InVision
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2cm}
+\begin{twocolentry}{2021}
+    \textbf{Unmesa.ai - AI Productivity Platform}
+\end{twocolentry}
+\vspace{0.2cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed the end-to-end user experience for an AI-powered productivity platform.
+        \item Created landing page, mobile and web application, and social media creatives with cohesive design system.
+        \item Designed user-friendly dashboards, task management flows, and productivity tools with modern interface design.
+        \item Tools: Figma, Adobe Illustrator, Sketch
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2cm}
+\begin{twocolentry}{2024}
+    \textbf{Gennext IT - Company Website}
+\end{twocolentry}
+\vspace{0.2cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed the complete user experience of the company's official website with modern, responsive interface.
+        \item Created clear user flows and intuitive navigation to enhance user engagement.
+        \item Ensured brand's professionalism and services were effectively communicated through thoughtful design.
+        \item Tools: Figma, Sketch
+    \end{highlights}
+\end{onecolentry}
+
+\section{Technical Skills}
+\begin{onecolentry}
+    \textbf{Design Tools:} Figma, Adobe Illustrator, Adobe Photoshop, InVision, Framer, Adobe XD \\
+    \textbf{Additional Skills:} Blender, Unity, React, Next.js, TypeScript, Tailwind CSS
+\end{onecolentry}
+
+\section{Education (2023 - Present)}
+\begin{twocolentry}{2021 -- Present}
+    \textbf{Bachelor's in Computer Applications}, Jaypee Institute of Information Technology
+\end{twocolentry}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Relevant Coursework: Web Development, Data Structures, UI/UX Design
+    \end{highlights}
+\end{onecolentry}
+
+\end{document}
