@@ -1,36 +1,36 @@
 const experiences = [
   {
     company: "Edwance.ai",
-    role: "Front End Developer - Intern",
+    role: "UI/UX Designer - Intern",
     type: "Full Time",
     duration: "Ongoing",
     period: "July 2025 - Ongoing",
-    description: "Spearheading the end-to-end design and development of Edwance.ai’s landing page and dashboard, while driving the product’s growth from concept to a fully scaled service.",
+    description: "Leading the end-to-end UI/UX design of Edwance.ai's landing page and dashboard, creating intuitive user experiences and beautiful interfaces that drive product growth from concept to a fully scaled service.",
   },
   {
     company: "Tangle",
-    role: "Full Stack App Developer",
+    role: "UI/UX Designer",
     type: "Freelance",
     duration: "Ongoing",
     period: "July 2025 - Ongoing",
-    description: "Leading the development of Tangle’s MVP, from initial concept to a fully functional cross-platform app for a funded startup, covering both frontend and backend architecture.",
+    description: "Designing the complete user experience for Tangle's MVP, from initial wireframes to high-fidelity prototypes for a funded startup, focusing on creating seamless cross-platform user journeys.",
   },
   {
     company: "Gennext IT",
-    role: "Full Stack Developer - Intern",
+    role: "UI/UX Designer - Intern",
     type: "Full Time",
     duration: "Completed",
     period: "April 2025 - July 2025",
     description:
-      "Architecting and developing scalable web applications for Gennext IT, focused on building robust, high-performance digital solutions for multiple clients.",
+      "Designing user-centered digital solutions for Gennext IT, creating modern, responsive interfaces and user experiences that enhance client engagement and brand presence.",
   },
   {
     company: "Insyd",
-    role: "App Developer - Founder",
+    role: "UI/UX Designer - Founder",
     type: "Full Time",
     duration: "Completed",
     period: "March 2025 - June 2025",
-    description: "Designed and developed the Insyd app from the ground up, taking it from concept to a fully functional product, covering both frontend and backend.",
+    description: "Designed the complete user experience and visual identity for the Insyd app from concept to launch, creating a sleek, nightlife-focused design that prioritizes user engagement and brand recognition.",
   },
   
 ];

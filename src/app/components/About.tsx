@@ -24,12 +24,12 @@ export default function About() {
                   </svg>
                 </div>
                 <h4 className="text-lg font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors">
-                  Frontend Development
+                  User Interface Design
                 </h4>
                 <p className="text-zinc-400 leading-relaxed group-hover:text-zinc-300 transition-colors">
-                  Creating responsive, interactive user interfaces with React,
-                  Next.js, and modern CSS frameworks that deliver exceptional
-                  user experiences.
+                  Creating beautiful, responsive user interfaces using Figma,
+                  Adobe Creative Suite, and modern design systems that deliver
+                  exceptional visual experiences.
                 </p>
               </div>
             </div>
@@ -53,12 +53,12 @@ export default function About() {
                   </svg>
                 </div>
                 <h4 className="text-lg font-semibold text-white mb-3 group-hover:text-green-400 transition-colors">
-                  Backend Development
+                  User Experience Design
                 </h4>
                 <p className="text-zinc-400 leading-relaxed group-hover:text-zinc-300 transition-colors">
-                  Building robust APIs and server-side applications using
-                  Node.js, Python, and cloud technologies for scalable
-                  solutions.
+                  Crafting intuitive user experiences through research, wireframing,
+                  prototyping, and usability testing to create user-centered
+                  design solutions.
                 </p>
               </div>
             </div>
@@ -82,11 +82,12 @@ export default function About() {
                   </svg>
                 </div>
                 <h4 className="text-lg font-semibold text-white mb-3 group-hover:text-purple-400 transition-colors">
-                  UI/UX Design
+                  Visual Design
                 </h4>
                 <p className="text-zinc-400 leading-relaxed group-hover:text-zinc-300 transition-colors">
-                  Designing intuitive user experiences and beautiful interfaces
-                  using Figma and design systems that prioritize usability.
+                  Creating compelling visual designs and brand identities using
+                  Adobe Creative Suite, Figma, and design systems that establish
+                  strong brand presence.
                 </p>
               </div>
             </div>
@@ -110,12 +111,12 @@ export default function About() {
                   </svg>
                 </div>
                 <h4 className="text-lg font-semibold text-white mb-3 group-hover:text-orange-400 transition-colors">
-                  DevOps & Deployment
+                  Design Systems & Prototyping
                 </h4>
                 <p className="text-zinc-400 leading-relaxed group-hover:text-zinc-300 transition-colors">
-                  Setting up automated workflows to build, test, and deploy apps
-                  smoothly on platforms like AWS and Vercel, making sure
-                  everything runs reliably.
+                  Building comprehensive design systems and creating interactive
+                  prototypes using Figma, Principle, and other tools to bring
+                  designs to life and validate user flows.
                 </p>
               </div>
             </div>

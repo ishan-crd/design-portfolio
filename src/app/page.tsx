@@ -11,47 +11,58 @@ import JobPage from "./components/JobPage";
 import GennextPage from "./components/GennextPage";
 import Cradlepage from "./components/Cradlepage";
 import Resandcafe from "./components/Resandcafe";
+import Unmesapage from "./components/Unmesapage";
 
 const companyDetails = [
   {
-    logo: "/insyd-logo.png",
-    job: "Founder, Designer & App Developer",
+    logo: "/cradle-logo.png",
+    job: "UI/UX Designer",
     text: [
-      "As the creator of Insyd, I led the product from concept to launch,handling end-to-end design, development, and strategy. I designed the UI/UX to deliver a sleek, nightlife-focused experience and built the app using React Native and Firebase for a smooth,cross-platform performance.",
-      "I also handled branding, marketing strategy, and user feedback loops to guide iterations. Insyd was built to bridge the gap between partygoers and nightlife venues, creating a dynamic clubbing ecosystem.",
+      "For Cradle, I designed the entire digital design presence of the brand, from designing the user experience in Figma to creating the visual design system. I crafted a bold, athletic aesthetic that matched the brand's identity, focusing on a smooth shopping experience and strong visual appeal.",
+      "I designed the complete user journey from product discovery to checkout, creating wireframes, prototypes, and high-fidelity designs. The result was a comprehensive design system that blended strong branding with seamless usability across all touchpoints.",
+    ],
+    client: "Cradle",
+    techStack: ["Figma", "Blender", "Adobe Illustrator"],
+  },
+  {
+    logo: "/insyd-logo.png",
+    job: "Founder & UI/UX Designer",
+    text: [
+      "As the creator of Insyd, I led the product from concept to launch, handling end-to-end UI/UX design, branding, and strategy. I designed the complete user experience to deliver a sleek, nightlife-focused interface that prioritizes user engagement and brand recognition.",
+      "I also handled visual identity design, marketing strategy, and user feedback loops to guide design iterations. Insyd was designed to bridge the gap between partygoers and nightlife venues, creating a dynamic clubbing ecosystem through thoughtful UX design.",
     ],
     client: "Insyd",
-    techStack: ["React Native", "JavaScript"],
+    techStack: ["Figma", "Adobe Illustrator"],
   },
   {
     logo: "/gennext-logo.png",
-    job: "Designer & Front-End App Developer",
+    job: "UI/UX Designer",
     text: [
-      "At Gennext IT, I was responsible for designing the frontend of the company’s official website. I created a modern, responsive focusing on clear user flows and intuitive navigation to enhance user engagement.",
-      "I led the UI/UX design process from wireframes to final implementation, ensuring the brand’s professionalism and services were effectively communicated. My work helped establish a strong digital presence for Gennext IT and improved user trust through thoughtful design and seamless performance.",
+      "At Gennext IT, I designed the complete user experience of the company's official website. I designed a modern, responsive interface focusing on clear user flows and intuitive navigation to enhance user engagement.",
+      "I designed the UI/UX design process from wireframes to final implementation, ensuring the brand's professionalism and services were effectively communicated. My design work helped establish a strong digital presence for Gennext IT and improved user trust through thoughtful design and seamless user experience.",
     ],
     client: "Gennext IT",
-    techStack: ["React.js", "JavaScript", "Framer"],
+    techStack: ["Figma", "Sketch"],
   },
   {
-    logo: "/cradle-logo.png",
-    job: "Full Stack Developer & Designer",
+    logo: "/unmesa/unmesa-logo.svg",
+    job: "UI/UX Designer",
     text: [
-      "For Cradle, I handled the entire digital presence of the brand, from designing the user experience in Figma to developing the full-stack e-commerce website. I crafted a bold, athletic aesthetic that matched the brand's identity, focusing on a smooth shopping experience and strong visual appeal. ",
-      "On the development side, I implemented product listings, cart and checkout functionality, and admin tools using modern web technologies. The result was a fully responsive, performance-optimized site that blended strong branding with seamless usability.",
+      "At Unmesa.ai, I designed the end-to-end user experience for their AI-powered productivity platform, including the landing page, mobile and web application, and social media creatives. Using Figma and Adobe Creative Suite, I designed a cohesive design system featuring a sleek blue gradient aesthetic that reflects the brand's modern and intelligent identity.",
+      "My design work focused on creating user-friendly dashboards, task management flows, and productivity tools that feel intuitive and engaging. I designed clean layouts, smooth navigation, and visually appealing elements that make the app both functional and delightful. Additionally, I designed for consistency across digital platforms, from the product interface to social media presence, strengthening Unmesa.ai's overall brand identity.",
     ],
-    client: "Cradle",
-    techStack: ["React.js", "CSS", "Javascript"],
+    client: "Unmesa.ai",
+    techStack: ["Figma", "Adobe Illustrator", "Sketch"],
   },
   {
     logo: "/res&cafe-logo.png",
-    job: "Designing",
+    job: "UI/UX Designer",
     text: [
-      "At Res&Cafe, I led the UI/UX design for a digital restaurant menu and ordering app, focused on streamlining the dining experience. Using Figma, I crafted an intuitive, visually appealing interface that allowed customers to easily browse the menu, customize orders, and place them seamlessly. ",
-      "The design prioritized ease of use, responsiveness across devices, and a smooth user journey from selection to checkout, tailored for both dine-in and takeaway experiences.",
+      "At Res&Cafe, I designed the UI/UX design for a digital restaurant menu and ordering app, focused on streamlining the dining experience. Using Figma, I designed an intuitive, visually appealing interface that allowed customers to easily browse the menu, customize orders, and place them seamlessly.",
+      "I designed for ease of use, responsiveness across devices, and a smooth user journey from selection to checkout, tailored for both dine-in and takeaway experiences. I designed wireframes, prototypes, and final designs that enhanced the overall dining experience.",
     ],
     client: "Res&Cafe",
-    techStack: ["UI/UX Designer"],
+    techStack: ["Figma", "InVision"],
   },
 ];
 
@@ -98,7 +109,7 @@ export default function Home() {
                 href="#tech"
                 className="text-zinc-400 hover:text-white transition-colors"
               >
-                Tech Stack
+                Design Tools
               </a>
               <a
                 href="#experience"
@@ -142,26 +153,31 @@ export default function Home() {
         </section>
 
         <section id="cradle-project" className="hidden md:block lg:block">
-          <JobPage company={companyDetails[2]} />
+          <JobPage company={companyDetails[0]} />
           <Cradlepage />
         </section>
 
         <section id="insyd-project" className="hidden md:block lg:block">
-          <JobPage company={companyDetails[0]} />
+          <JobPage company={companyDetails[1]} />
           <Insydpage />
         </section>
 
         <section id="gennext-project" className="hidden md:block lg:block">
-          <JobPage company={companyDetails[1]} />
+          <JobPage company={companyDetails[2]} />
           <GennextPage />
         </section>
 
-        <section id="gennext-project" className="hidden md:block lg:block">
+        <section id="unmesa-project" className="hidden md:block lg:block">
           <JobPage company={companyDetails[3]} />
+          <Unmesapage />
+        </section>
+
+        <section id="resandcafe-project" className="hidden md:block lg:block">
+          <JobPage company={companyDetails[4]} />
           <Resandcafe />
         </section>
 
-        <section id="dev projects">
+        <section id="design projects">
           <Projects />
         </section>
 

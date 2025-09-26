@@ -24,7 +24,7 @@ export default function Profile() {
           </div>
 
           <h2 className="text-xl text-zinc-400 mb-6 font-mono">
-            Full Stack Developer & UI/UX Designer
+            UI/UX Designer
           </h2>
 
           {/* Links Section */}
